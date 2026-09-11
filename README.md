@@ -23,7 +23,7 @@ This project simulates a small enterprise identity environment end-to-end:
 - Creating Organizational Units and user accounts, and managing group membership
 - Reviewing Windows Security event logs and mapping key Event IDs (logons, account management, group changes) to the actions that generated them — the same correlation work performed during SOC investigations
 
-The full step-by-step walkthrough, actual deployment configuration, screenshots, and troubleshooting encountered along the way are documented in [`LAB-WALKTHROUGH.md`](LAB-WALKTHROUGH.md) and the full [PDF report](CloudBased_AD_Setup_and_User_Management.pdf).
+The full step-by-step walkthrough, actual deployment configuration, screenshots, and troubleshooting encountered along the way are documented in [`LAB-WALKTHROUGH.md`](LAB-WALKTHROUGH.md).
 
 ---
 
@@ -49,8 +49,7 @@ The full step-by-step walkthrough, actual deployment configuration, screenshots,
 
 ```
 ├── README.md
-├── CloudBased_AD_Setup_and_User_Management.docx   # Full lab report (source)
-├── CloudBased_AD_Setup_and_User_Management.pdf    # Full lab report (viewable)
+├── CloudBased_AD_Setup_and_User_Management.pdf    # Full lab report
 ├── LAB-WALKTHROUGH.md                             # Narrative walkthrough w/ real troubleshooting + screenshots
 └── images/                                        # Screenshots referenced by LAB-WALKTHROUGH.md
 ```
