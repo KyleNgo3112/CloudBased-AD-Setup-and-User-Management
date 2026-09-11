@@ -2,8 +2,8 @@
 
 A hands-on cybersecurity lab documenting the deployment of a small enterprise-style **Active Directory (AD) environment in Microsoft Azure** — covering domain controller setup, client domain join, user/OU management, and Windows Security event log monitoring.
 
-📄 **[Read the full lab report (PDF) →](docs/CloudBased_AD_Setup_and_User_Management.pdf)**
-🧭 **[Read the narrative walkthrough with troubleshooting →](docs/LAB-WALKTHROUGH.md)**
+📄 **[Read the full lab report (PDF) →](CloudBased_AD_Setup_and_User_Management.pdf)**
+🧭 **[Read the narrative walkthrough with troubleshooting →](LAB-WALKTHROUGH.md)**
 
 ---
 
@@ -23,7 +23,7 @@ This project simulates a small enterprise identity environment end-to-end:
 - Creating Organizational Units and user accounts, and managing group membership
 - Reviewing Windows Security event logs and mapping key Event IDs (logons, account management, group changes) to the actions that generated them — the same correlation work performed during SOC investigations
 
-The full step-by-step walkthrough, actual deployment configuration, screenshots, and troubleshooting encountered along the way are documented in the [`docs/`](docs) folder.
+The full step-by-step walkthrough, actual deployment configuration, screenshots, and troubleshooting encountered along the way are documented in [`LAB-WALKTHROUGH.md`](LAB-WALKTHROUGH.md) and the full [PDF report](CloudBased_AD_Setup_and_User_Management.pdf).
 
 ---
 
@@ -49,11 +49,10 @@ The full step-by-step walkthrough, actual deployment configuration, screenshots,
 
 ```
 ├── README.md
-└── docs/
-    ├── CloudBased_AD_Setup_and_User_Management.docx   # Full lab report (source)
-    ├── CloudBased_AD_Setup_and_User_Management.pdf    # Full lab report (viewable)
-    ├── LAB-WALKTHROUGH.md                             # Narrative walkthrough w/ real troubleshooting + screenshots
-    └── images/                                        # Screenshots referenced by LAB-WALKTHROUGH.md
+├── CloudBased_AD_Setup_and_User_Management.docx   # Full lab report (source)
+├── CloudBased_AD_Setup_and_User_Management.pdf    # Full lab report (viewable)
+├── LAB-WALKTHROUGH.md                             # Narrative walkthrough w/ real troubleshooting + screenshots
+└── images/                                        # Screenshots referenced by LAB-WALKTHROUGH.md
 ```
 
 ---
